@@ -1,0 +1,18 @@
+Sat Nov 28 09:46:39 EST 2015
+
+This is me testing out ways of doing fixed-point binary arithmetic in python. 
+
+The decimal package is only base 10, so doesn't really do what I want it to. 
+
+Simple-Python-Fixed-Point-Module 0.5 looks promising...
+
+Really simple ipython example:
+In [1]: import FixedPoint as fp
+In [2]: x = fp.FXnum(0.1,fp.FXfamily(5)); print "%.8f" % x
+0.09375000
+
+This looks like the right way to go!
+
+
+
+
