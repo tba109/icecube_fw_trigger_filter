@@ -161,8 +161,6 @@ if __name__ == '__main__':
     fig, ax = plt.subplots()
     ax.stem(nout,xout,linefmt='-b',markerfmt='ob')
     ax.stem(nout,yout,linefmt='-g',markerfmt='og')
-    #plt.plot(nout,xout,'-o')
-    # plt.plot(nout,yout,'-o')
     plt.xlabel('Sample Number')
     plt.ylabel('Amplitude')
     plt.show()
